@@ -1,0 +1,52 @@
+body{
+    margin:auto;
+    background-color: #101011;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Raleway', sans-serif;
+}
+
+.container{
+    background-color: aquamarine;
+    margin: 10px;
+    padding: 30px;
+    border-radius: 5px;
+    border: none;
+}
+
+ul{
+    list-style-type: none;
+    padding: 5px;
+}
+
+li{
+    margin: 0.5em 0.2em;
+}
+
+h1{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #2b2b2e;
+}
+
+#item-input{
+    padding: 7px;
+    border:none;
+    border-radius: 5px;
+}
+
+#item-button{
+    padding: 7px;
+    background-color: #FF69B4;
+    border: none;
+    cursor: pointer;
+}
+
+.remove{
+    background-color: #FF69B4;
+    margin: 0 0.5em;
+    border: none;
+    cursor: pointer;
+}
